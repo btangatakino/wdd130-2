@@ -13,7 +13,7 @@ body {
     color: steelblue;
   }
   img {
-    width: 800px;
+    width: 80%;
     border: 4px solid steelblue;
   }
   .main-para {
@@ -26,6 +26,7 @@ body {
 }
   p {
     padding: 10px;
+    width: 80%;
   }
   footer {
     background-color: steelblue;
