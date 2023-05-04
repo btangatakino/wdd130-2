@@ -33,3 +33,6 @@ body {
     background-color: steelblue;
     color: white;
   }
+  * {
+      border: 2px solid blue;
+  }
