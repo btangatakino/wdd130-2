@@ -103,8 +103,6 @@ nav {
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-}
-nav  {
   list-style-type: none;
   display: flex;
 }
@@ -112,6 +110,7 @@ nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
+  text-align: center;
   padding: 10px;
 }
 nav a:link, nav a:visited {
@@ -167,4 +166,16 @@ nav a:hover {
 }
 #background {
   height: 75px;
+}
+#hero-msg h1 {
+  text-align: center;
+} 
+#hero-msg h4 {
+  text-align: center;
+}
+.button-box {
+  text-align: center;
+}
+main section {
+  text-align: center;
 }
