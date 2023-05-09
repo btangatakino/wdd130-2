@@ -176,6 +176,9 @@ nav a:hover {
 .button-box {
   text-align: center;
 }
+#content {
+  max-width: 1600px;
+}
 main section {
   text-align: center;
 }
