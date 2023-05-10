@@ -203,10 +203,20 @@ main section {
 .book, .join {
   text-decoration: none;
 }
-footer a {
+footer a{
   text-decoration: underline;
   font-size: 1.2em;
+  background-color: #bcd675;
+}
+footer p {
+  color: black;
 }
 .social {
   display: flex;
+}
+.msg {
+  background-color: rgb(94, 139, 159);
+}
+.msg h2, p {
+  color: #d9c2a3;
 }
