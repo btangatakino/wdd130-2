@@ -30,8 +30,7 @@ Fonts are separated by a & */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  /*max-width: 960px;*/
-  max-width: 80%;
+  max-width: 90%;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
@@ -219,4 +218,11 @@ footer p {
 }
 .msg h2, p {
   color: #d9c2a3;
+}
+h4 {
+  background-color: rgb(94, 139, 159);
+  color: #d9c2a3;
+}
+.footer {
+  display: flex;
 }
