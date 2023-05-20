@@ -1,12 +1,43 @@
-.images a{
+body {
     max-width: 100%;
-    max-height: auto;
-    border: 4px solid steelblue;
+    max-height: 100%;
+    float: left;
+    margin: 5%;
+    padding: 0%;
 }
-.images {
-    display: flex;
-    min-width: 100px;
-    max-width: 1600px;
-    border: 4px solid steelblue;
-    max-height: auto;
+header {
+    height: 35%px;
+    margin: 0%;
+    padding-bottom: 0%;
+}
+.main-image {
+    max-width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: -4px;
+}
+figure {
+    display: inline-flex;
+    background-color: rgb(107, 103, 103);
+    width: 100%;
+    height: 15%;
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+}
+.img1, .img2, .img3 {
+    max-width: 20%;
+    height: 100%;
+    padding: 0% 0%;
+    align-self: center;
+    border-radius: 50%;
+    margin: 2% 5%;
+    border: 7px solid rgb(66, 58, 58);
+}
+.imf {
+    margin-left: 10%;
+}
+.imf3 {
+    margin-right: 10%;
 }
