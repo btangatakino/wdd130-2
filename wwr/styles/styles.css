@@ -27,25 +27,27 @@ Fonts are separated by a & */
 }
 body {
   max-width: 90%;
-  margin: 0 auto;
-  padding: 4em;
-  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
   text-align: center;
   background-color: #d7e3e6;
+  font-family: Arial, Helvetica, sans-serif;
 }
 img {
   display: block;
   margin: 0 auto;
   max-width: 80%;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
 h2 {
   text-align: center;
+  margin: 0;
 }
-hr {
+h3 {
   height: 3px;
   margin: 35px 0;
   background: var(--accent1-color);
@@ -54,7 +56,6 @@ header {
   padding: 1em;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
-  background-color: rgb(118, 87, 33);
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -95,6 +96,7 @@ p.colored {
 }
 nav {
   background-color: var(--nav-background-color);
+  max-width: 100%;
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
@@ -103,11 +105,12 @@ nav {
   text-decoration: none;
 }
 nav a {
-  padding: 1em;
-  min-width: 20px;
+  padding: 35px;
+  max-width: 100%;
+  min-width: 15px;
   text-decoration: none;
   text-align: center;
-  font-size: 90%;
+  font-size: 80%;
   display: flex;
   color: #396E94;
 }
@@ -164,17 +167,22 @@ nav a:hover {
 #background {
   height: 725px;
   background-color: #9c89f1;
+  margin-bottom: 35px;
 }
-#hero-msg h1 {
+msg h1, #hero-msg h4 {
   text-align: center;
-} 
-#hero-msg h4 {
-  text-align: center;
+}
+#hero-box {
+  max-width: 100%;
 }
 #hero-img {
   padding-top: 1em;
   padding-bottom: 1em;
   width: 100%;
+  margin: 0;
+}
+#hero {
+  border: 4px solid #ccc;
 }
 .button-box {
   text-align: center;
@@ -183,16 +191,21 @@ nav a:hover {
   max-width: 1600px;
   margin: 0 auto;
   text-decoration: none;
+  border: 2px solid #ccc;
 }
-main section {
+main section img{
   text-align: center;
+  box-sizing: border-box;
 }
 .home-title {
-  background-color: rgb(94, 139, 159);
   color: #d9c2a3;
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 .logo {
   width: 80px;
@@ -201,13 +214,23 @@ main section {
   text-decoration: none;
   background-color: #bcd675;
   color: blue;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover, .join:hover {
   background-color: #ccc;
   color: black;
 }
+footer {
+  background-color: #396E94;
+  color: blue;
+  margin-bottom: 25px;
+  padding: 25px 50px;
+}
 footer a{
-  text-decoration: underline;
+  text-decoration: none;
   font-size: 1.2em;
   background-color: #bcd675;
   color: blue;
@@ -217,21 +240,47 @@ footer a:hover {
 }
 footer p {
   color: black;
+  font-size: 1.2em;
+}
+footer p a:hover {
+  text-decoration: underline;
 }
 .social {
   display: flex;
 }
 .msg {
   background-color: rgb(94, 139, 159);
+  font-size: 0.8em;
+  line-height: 1.5em;
+  padding: 35px;
+  margin-top: 35px;
 }
 .msg h2, p {
   color: #d9c2a3;
 }
+.msp p {
+  padding-bottom: 15px;
+}
 h4 {
-  background-color: rgb(94, 139, 159);
   color: #d9c2a3;
 }
 .footer {
-  display: flex;
+  display: block;
   color: blue;
+  text-align: left;
+  padding: 25px 25px;
+  margin-top: 20px;
+}
+footer .social img {
+  padding-top: 15px;
+  padding-bottom: 15px
+}
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: 10px solid black;
+}
+#logo-link {
+  padding-top: 5px;
 }
