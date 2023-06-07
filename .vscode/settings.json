@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.port": 5050
+    //"liveServer.settings.port": 5050,
+    //"liveServer.settings.multiRootWorkspaceName": "wdd130-2",
+    //"liveServer.settings.CustomBrowser": "chrome"
 }
